@@ -24,44 +24,6 @@
 
 无论你是路过的开发者，还是寻找特定问题解决方案的朋友，都希望这里的内容能对你有所帮助。
 
-## 🛠️ 技术栈 (Tech Stack)
-
-本站点的构建与部署主要依赖于以下技术：
-
-* **静态站点生成器 (Generator)**: [Hexo](https://hexo.io/) / [Jekyll](https://jekyllrb.com/) / [Hugo](https://gohugo.io/) / [VuePress](https://vuepress.vuejs.org/)  *（请根据你的实际情况选择一个）*
-* **托管平台 (Hosting)**: [GitHub Pages](https://pages.github.com/)
-* **持续集成/持续部署 (CI/CD)**: [GitHub Actions](https://github.com/features/actions)
-* **主题 (Theme)**: [Next](https://theme-next.js.org/) / [Matery](https://github.com/blinkfox/hexo-theme-matery) / 自定义主题 *（请填写你使用的主题）*
-* **主要语言**: `Markdown`, `HTML`, `CSS`, `JavaScript`
-
-## 🚀 如何在本地运行 (Running Locally)
-
-如果你对本站的源码或主题感兴趣，可以按照以下步骤在你的本地环境中运行它：
-
-1.  **克隆仓库**
-    ```bash
-    git clone [https://github.com/plaguewzk/plaguewzk.github.io.git](https://github.com/plaguewzk/plaguewzk.github.io.git)
-    cd plaguewzk.github.io
-    ```
-
-2.  **安装依赖**
-    *(以基于 Node.js 的 Hexo 为例)*
-    ```bash
-    npm install
-    ```
-
-3.  **启动本地服务**
-    ```bash
-    # 启动开发服务器，通常在 http://localhost:4000
-    hexo server
-    ```
-
-4.  **生成静态文件**
-    ```bash
-    # 将生成的 public 文件夹内容部署到服务器即可
-    hexo generate
-    ```
-
 ## 🗺️ 内容导览 (Content Guide)
 
 你可以通过以下分类快速找到感兴趣的内容：
@@ -85,7 +47,7 @@
 ## 📫 联系我 (Get In Touch)
 
 * **GitHub**: [@plaguewzk](https://github.com/plaguewzk)
-* **Email**: `your-email@example.com` *(请替换为你的邮箱)*
+* **Email**: `2849996270@qq.com`
 * **Blog**: <https://plaguewzk.github.io>
 
 <div align="center">
