@@ -58,9 +58,14 @@
 
 </div>
 
-## 项目目录
-- [坦克大战(潦草版)](https://github.com/PlagueWZK/tankgame)
-- [大G!](https://github.com/PlagueWZK/big-g)
-- [植物明星大乱斗 But By Java](https://github.com/PlagueWZK/plants-battle)
-- [JavaSE学习日记](https://github.com/PlagueWZK/java-learning-diary)
-- [QFNU请假条生成器](https://github.com/PlagueWZK/auto-generate-leaver/generator)
+## 项目
+### 💻 我的项目作品
+
+| 项目 | 说明 |
+|------|------|
+| 🕹️ <a href="https://github.com/PlagueWZK/tankgame" target="_blank">坦克大战 (潦草版)</a> | 复刻经典坦克大战小游戏，Java 实现。 |
+| 🚙 <a href="https://github.com/PlagueWZK/big-g" target="_blank">大G!</a> | 一款基于 Swing 的小型驾驶游戏。 |
+| 🌿 <a href="https://github.com/PlagueWZK/plants-battle" target="_blank">植物明星大乱斗 But By Java</a> | 植物大战僵尸风格对战游戏，纯 Java 实现。 |
+| 📘 <a href="https://github.com/PlagueWZK/java-learning-diary" target="_blank">JavaSE 学习日记</a> | Java 学习过程中的知识与笔记整理。 |
+| 📝 <a href="https://plaguewzk.github.io/auto-generate-leaver/generator" target="_blank">QFNU 请假条生成器</a> | 在线生成请假条的小工具。 |
+
