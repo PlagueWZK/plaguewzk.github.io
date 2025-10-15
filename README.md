@@ -1,6 +1,4 @@
-<p align="center">
-
-# PlagueWZK's Digital Garden 🌱  
+# PlagueWZK's Digital Garden 🌱
 
 **这里是 PlagueWZK 的个人博客与项目展示空间，一个记录学习、分享知识、沉淀思考的地方。**
 
@@ -11,7 +9,6 @@
 [![GitHub forks](https://img.shields.io/github/forks/plaguewzk/plaguewzk.github.io?style=social)](https://github.com/plaguewzk/plaguewzk.github.io/network/members)
 [![Deploy with GitHub Pages](https://img.shields.io/github/deployments/plaguewzk/plaguewzk.github.io/production?label=Deploy&logo=github)](https://github.com/plaguewzk/plaguewzk.github.io/deployments)
 
-</p>
 
 ---
 
