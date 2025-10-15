@@ -4,7 +4,7 @@
 
 **这里是 PlagueWZK 的个人博客与项目展示空间，一个记录学习、分享知识、沉淀思考的地方。**
 
-**项目指南👉[点击此处](#项目目录)**
+**项目指南👉[点击此处](#项目)**
 
 [![Website Status](https://img.shields.io/website?down_color=lightgrey&down_message=offline&label=Website&up_color=brightgreen&up_message=online&url=https%3A%2F%2Fplaguewzk.github.io)](https://plaguewzk.github.io)
 [![GitHub stars](https://img.shields.io/github/stars/plaguewzk/plaguewzk.github.io?style=social)](https://github.com/plaguewzk/plaguewzk.github.io/stargazers)
