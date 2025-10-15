@@ -1,17 +1,17 @@
-<div align="center">
+<p align="center">
 
-# PlagueWZK's Digital Garden 🌱
+# PlagueWZK's Digital Garden 🌱  
 
 **这里是 PlagueWZK 的个人博客与项目展示空间，一个记录学习、分享知识、沉淀思考的地方。**
 
-**项目指南👉[点击此处](#项目)**
+**项目指南 👉 [点击此处](#项目)**
 
 [![Website Status](https://img.shields.io/website?down_color=lightgrey&down_message=offline&label=Website&up_color=brightgreen&up_message=online&url=https%3A%2F%2Fplaguewzk.github.io)](https://plaguewzk.github.io)
 [![GitHub stars](https://img.shields.io/github/stars/plaguewzk/plaguewzk.github.io?style=social)](https://github.com/plaguewzk/plaguewzk.github.io/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/plaguewzk/plaguewzk.github.io?style=social)](https://github.com/plaguewzk/plaguewzk.github.io/network/members)
 [![Deploy with GitHub Pages](https://img.shields.io/github/deployments/plaguewzk/plaguewzk.github.io/production?label=Deploy&logo=github)](https://github.com/plaguewzk/plaguewzk.github.io/deployments)
 
-</div>
+</p>
 
 ---
 
@@ -52,11 +52,11 @@
 * **Email**: `2849996270@qq.com`
 * **Blog**: <https://plaguewzk.github.io>
 
-<div align="center">
+<p align="center">
 
 **感谢你的访问与关注！✨**
 
-</div>
+</p>
 
 ## 项目
 ### 💻 我的项目作品
