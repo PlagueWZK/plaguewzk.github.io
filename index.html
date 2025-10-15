@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlagueWZK's Digital Garden</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            background-color: #f4f7f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .header, .footer {
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            color: #7f8c8d;
+            margin-top: 0;
+        }
+
+        .badges {
+            margin: 25px 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .badges img {
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .badges img:hover {
+            transform: scale(1.05);
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 40px 0;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        
+        h2 .anchor {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 12px 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        
+        ul li strong {
+            color: #2c3e50;
+        }
+
+        blockquote {
+            background-color: #ecf0f1;
+            border-left: 5px solid #95a5a6;
+            margin: 20px 0;
+            padding: 15px 20px;
+            font-style: italic;
+            color: #555;
+            border-radius: 5px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        thead {
+            background-color: #34495e;
+            color: #ffffff;
+        }
+
+        tbody tr {
+            transition: background-color 0.2s ease;
+        }
+
+        tbody tr:nth-of-type(even) {
+            background-color: #f9f9f9;
+        }
+
+        tbody tr:hover {
+            background-color: #f1c40f;
+            cursor: pointer;
+        }
+        
+        tbody td:first-child {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .footer p {
+            font-size: 1.1em;
+            color: #34495e;
+            font-weight: 500;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>PlagueWZK's Digital Garden 🌱</h1>
+            <p>这里是 PlagueWZK 的个人博客与项目展示空间，一个记录学习、分享知识、沉淀思考的地方。</p>
+            <p><strong>项目指南👉<a href="#projects">点击此处</a></strong></p>
+            <div class="badges">
+                <a href="https://plaguewzk.github.io" target="_blank"><img src="https://img.shields.io/website?down_color=lightgrey&down_message=offline&label=Website&up_color=brightgreen&up_message=online&url=https%3A%2F%2Fplaguewzk.github.io" alt="Website Status"></a>
+                <a href="https://github.com/plaguewzk/plaguewzk.github.io/stargazers" target="_blank"><img src="https://img.shields.io/github/stars/plaguewzk/plaguewzk.github.io?style=social" alt="GitHub stars"></a>
+                <a href="https://github.com/plaguewzk/plaguewzk.github.io/network/members" target="_blank"><img src="https://img.shields.io/github/forks/plaguewzk/plaguewzk.github.io?style=social" alt="GitHub forks"></a>
+                <a href="https://github.com/plaguewzk/plaguewzk.github.io/deployments" target="_blank"><img src="https://img.shields.io/github/deployments/plaguewzk/plaguewzk.github.io/production?label=Deploy&logo=github" alt="Deploy with GitHub Pages"></a>
+            </div>
+        </div>
+
+        <hr>
+
+        <section>
+            <h2>👋 关于本站 (About This Site)</h2>
+            <p>你好，欢迎来到我的数字花园！创建这个网站主要是为了：</p>
+            <ul>
+                <li>✍️ <strong>记录与分享</strong>：输出在 Java、系统设计、游戏开发等领域的学习笔记与实践心得。</li>
+                <li>🚀 <strong>项目展示</strong>：展示我个人开发的有趣项目，并分享其背后的技术细节与思考。</li>
+                <li>🧠 <strong>知识沉淀</strong>：将碎片化的知识系统化，构建属于自己的知识体系。</li>
+                <li>🌐 <strong>连接世界</strong>：与更多志同道合的技术爱好者交流与碰撞思想。</li>
+            </ul>
+            <p>无论你是路过的开发者，还是寻找特定问题解决方案的朋友，都希望这里的内容能对你有所帮助。</p>
+        </section>
+
+        <section>
+            <h2>🗺️ 内容导览 (Content Guide)</h2>
+            <p>你可以通过以下分类快速找到感兴趣的内容：</p>
+            <ul>
+                <li><strong>后端技术</strong>: Java 生态 (Spring Boot, JVM), 中间件 (Redis, Kafka), 数据库 (MySQL)</li>
+                <li><strong>游戏开发</strong>: 游戏引擎原理, ECS 架构, C++/C# 实践</li>
+                <li><strong>项目实战</strong>: 从 0 到 1 构建一个完整的应用/游戏</li>
+                <li><strong>学习笔记</strong>: 读书笔记、课程总结、算法题解</li>
+                <li><strong>随笔杂谈</strong>: 一些关于技术、生活和未来的思考</li>
+            </ul>
+            <blockquote>
+                访问我的网站 <strong><a href="https://plaguewzk.github.io" target="_blank">plaguewzk.github.io</a></strong> 查看所有文章！
+            </blockquote>
+        </section>
+
+        <section>
+            <h2>🤝 如何贡献 (How to Contribute)</h2>
+            <p>非常欢迎你为这个项目做出贡献！</p>
+            <ul>
+                <li><strong>发现错误</strong>：如果你在文章中发现了错别字、代码错误或描述不准确的地方，请随时提交 <a href="https://github.com/plaguewzk/plaguewzk.github.io/issues" target="_blank">Issue</a> 指出。</li>
+                <li><strong>内容建议</strong>：如果你有好的文章主题或项目建议，也欢迎通过 Issue 与我交流。</li>
+                <li><strong>代码改进</strong>：如果你对网站的样式、功能有改进想法，可以 Fork 本项目并提交 Pull Request。</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>📫 联系我 (Get In Touch)</h2>
+            <ul>
+                <li><strong>GitHub</strong>: <a href="https://github.com/plaguewzk" target="_blank">@plaguewzk</a></li>
+                <li><strong>Email</strong>: <code>2849996270@qq.com</code></li>
+                <li><strong>Blog</strong>: <a href="https://plaguewzk.github.io" target="_blank">https://plaguewzk.github.io</a></li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="projects">
+             <h2><a class="anchor" name="项目">💻 我的项目作品</a></h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>项目</th>
+                        <th>说明</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>🕹️ <a href="https://github.com/PlagueWZK/tankgame" target="_blank">坦克大战 (潦草版)</a></td>
+                        <td>复刻经典坦克大战小游戏，Java 实现。</td>
+                    </tr>
+                    <tr>
+                        <td>🚙 <a href="https://github.com/PlagueWZK/big-g" target="_blank">大G!</a></td>
+                        <td>一款基于 Swing 的小型驾驶游戏。</td>
+                    </tr>
+                    <tr>
+                        <td>🌿 <a href="https://github.com/PlagueWZK/plants-battle" target="_blank">植物明星大乱斗 But By Java</a></td>
+                        <td>植物大战僵尸风格对战游戏，纯 Java 实现。</td>
+                    </tr>
+                    <tr>
+                        <td>📘 <a href="https://github.com/PlagueWZK/java-learning-diary" target="_blank">JavaSE 学习日记</a></td>
+                        <td>Java 学习过程中的知识与笔记整理。</td>
+                    </tr>
+                    <tr>
+                        <td>📝 <a href="https://plaguewzk.github.io/auto-generate-leaver/generator" target="_blank">QFNU 请假条生成器</a></td>
+                        <td>在线生成请假条的小工具。</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <div class="footer">
+            <p>感谢你的访问与关注！✨</p>
+        </div>
+    </div>
+
+</body>
+</html>
