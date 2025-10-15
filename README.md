@@ -3,7 +3,8 @@
 # PlagueWZK's Digital Garden 🌱
 
 **这里是 PlagueWZK 的个人博客与项目展示空间，一个记录学习、分享知识、沉淀思考的地方。**
-- **项目指南👉[点击此处](#项目目录)**
+
+**项目指南👉[点击此处](#项目目录)**
 
 [![Website Status](https://img.shields.io/website?down_color=lightgrey&down_message=offline&label=Website&up_color=brightgreen&up_message=online&url=https%3A%2F%2Fplaguewzk.github.io)](https://plaguewzk.github.io)
 [![GitHub stars](https://img.shields.io/github/stars/plaguewzk/plaguewzk.github.io?style=social)](https://github.com/plaguewzk/plaguewzk.github.io/stargazers)
@@ -58,5 +59,8 @@
 </div>
 
 ## 项目目录
-
-
+- [坦克大战(潦草版)](https://github.com/PlagueWZK/tankgame)
+- [大G!](https://github.com/PlagueWZK/big-g)
+- [植物明星大乱斗 But By Java](https://github.com/PlagueWZK/plants-battle)
+- [JavaSE学习日记](https://github.com/PlagueWZK/java-learning-diary)
+- [QFNU请假条生成器](https://github.com/PlagueWZK/auto-generate-leaver/generator)
