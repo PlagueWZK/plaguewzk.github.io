@@ -10,9 +10,9 @@
 
 ## 🚀 技术栈 (Tech Stack)
 
-本网站目前主要使用基础的前端技术构建，保持轻量与快速。
-
-* **Java**
+* ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+* ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+* ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
 
 ---
 
